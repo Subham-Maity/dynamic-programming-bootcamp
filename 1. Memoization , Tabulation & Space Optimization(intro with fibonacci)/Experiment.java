@@ -1,9 +1,7 @@
-
-
-
-
 // Approach 1: Recursion
 // Use a recursive algorithm to resolve the problem with no-cache
+Time Complexity -  O(2^n)
+Space - O(n)
 
 
 public class FibonacciRecursion {  
@@ -27,6 +25,9 @@ public class FibonacciRecursion {
 
 // Approach 2: Memoization/Top-down Dynamic Programming
 // Using a cache array to store computed results starting from N to 0, so-called top-down
+Time Complexity - O(n)
+Space - O(n)
+
 public class FibonacciMemoization {  
     int[] dp;
 
@@ -61,6 +62,8 @@ public class FibonacciMemoization {
 
 // Approach 3: Tabulation/Bottom-up Dynamic Programming
 // Using a cache array to store computed results starting from 0 to N, so-called bottom-up
+Time Complexity - O(n)
+Space - O(n)
 
 
 public class Fibonacci{
@@ -90,7 +93,9 @@ public class Fibonacci{
 
 
 // Approach 4: Space optimization Dynamic Programming
-// Using a cache array to store computed results starting from 0 to N, so-called bottom-up
+Time Complexity - O(n)
+Space - O(1)
+
 
 public class FibonacciMemoization {
 
